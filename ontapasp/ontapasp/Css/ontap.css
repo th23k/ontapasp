@@ -1,0 +1,22 @@
+﻿body {
+    font-family:Arial,sans-serif;
+    padding: 30px;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+
+}
+.row-2{
+    height:200px;
+}
+row-2-col-1{
+    width:30%;
+}
+row-2-col-2{
+    width:70%;
+}

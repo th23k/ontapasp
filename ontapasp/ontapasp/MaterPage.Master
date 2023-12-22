@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MaterPage.master.cs" Inherits="ontapasp.MaterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Css/ontap.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+       <table>
+           <tr class="row-1">
+               <td>
+                   <img src="Images/logovci.jfif" />
+               </td>
+               <td style="width:1414px">
+                    <div style="text-align:center";>
+                        TRƯỜNG CAO ĐẲNG CÔNG THƯƠNG HỒ CHÍ MINH
+                    </div>
+               </td>
+           </tr>
+           <tr class="row-2">
+               <td class ="row-2-col-1">
+                   <div>
+                       <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CapNhat.aspx">Cap Nhat</asp:HyperLink>
+
+                   </div>
+                   <div>
+                       <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/TimKiem.aspx">Tim Kiem</asp:HyperLink>
+
+                   </div>
+               </td>
+               <td class="row-2-col-2">
+                   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+               </td>
+           </tr>
+
+
+       </table>
+
+
+        <footer style="padding:20px; text-align:center"> Đặng Trí Đức Thiên - CCN04.6B</footer>
+    </form>
+</body>
+</html>
